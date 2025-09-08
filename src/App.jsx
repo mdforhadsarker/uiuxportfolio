@@ -37,7 +37,7 @@ function App() {
       description:
         "Modern law firm website with professional aesthetics and user-friendly navigation",
       figmaUrl:
-        "https://www.figma.com/proto/XCNo1QYhS4O4FZCRXKpvtd/JNL-UI-UX?page-id=0%3A1&node-id=1-1357&viewport=-547%2C252%2C0.12&t=tRMvHvsY7wixfX9I-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A1357",
+        "https://www.figma.com/proto/xyokdJ9FBL2k8PAXwj2ZRr/JNL-2025?page-id=0%3A1&node-id=1-784&viewport=755%2C103%2C0.19&t=FQ5vHucvoQKnDnaS-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A784",
       liveUrl: "https://jamesnoblelaw.com.au/",
       category: "Legal Services",
     },
@@ -57,7 +57,7 @@ function App() {
       description:
         "Technology company website with modern design (new design under development)",
       figmaUrl:
-        "https://www.figma.com/proto/yTMUDyMzhmI6zXLu7vF0bB/Exceedict?page-id=0%3A1&node-id=1-12665&viewport=-138%2C-276%2C0.14&t=4C2cZnqrx1bLC2fT-1&scaling=min-zoom&content-scaling=fixed",
+        "https://www.figma.com/proto/gWkpWk84pgXFiLE4eFCRt4/Exceedict-2025?page-id=3022%3A76813&node-id=3022-78248&viewport=-1090%2C-1489%2C0.2&t=vPq7dzHengDxAZxl-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=3022%3A78248",
       designUrl:
         "https://www.figma.com/design/yTMUDyMzhmI6zXLu7vF0bB/Exceedict?node-id=0-1",
       liveUrl: "https://exceedict.com/",
