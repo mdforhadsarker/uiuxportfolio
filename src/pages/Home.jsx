@@ -341,7 +341,7 @@ const Home = () => {
         <footer className="flex flex-col md:flex-row items-center justify-between mt-16 text-center py-8 border-t border-slate-200 dark:border-slate-700">
           <p className="text-slate-600 dark:text-slate-400">
             <a
-              href="https://forhadsarkar.vercel.app/"
+              href="https://forhadsarkar.store/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline"
