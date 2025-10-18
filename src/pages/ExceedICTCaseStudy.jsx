@@ -180,7 +180,7 @@ const ExceedICTCaseStudy = () => {
         <div className="grid sm:grid-cols-2 gap-6 mb-6">
           <div>
             <img
-              src="/exceedict-final-desktop.png"
+              src="/ExceedictHome.png"
               alt="Exceed ICT Desktop Mockup"
               className="rounded-lg border border-slate-100 shadow-sm"
             />
