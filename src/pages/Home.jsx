@@ -13,6 +13,18 @@ import "../App.css";
 const Home = () => {
   const projects = [
     {
+      id: 13,
+      title: "Sams Southern Eatery",
+      description:
+        "This project was designed for a franchise owner of Sams Southern Eatery, focusing on creating a modern, QR-powered food ordering and inventory management system.",
+      figmaUrl:
+        "https://www.figma.com/proto/6rvO9MikkErMoYGdkhbopg/SAM-S-Southern-Eatery?page-id=0%3A1&node-id=1131-6520&viewport=-1616%2C-1973%2C0.29&t=lKSQoPXcAzJitx0m-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1131%3A6520",
+      liveUrl: "https://sams-eatery.com/",
+      caseStudy:
+        "https://www.behance.net/gallery/221079497/Sams-Southern-Eatery-Franchise-Web-Application",
+      category: "Food & Drink",
+    },
+    {
       id: 5,
       title: "ExceedICT",
       description:
