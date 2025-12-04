@@ -13,7 +13,50 @@ import "../App.css";
 const Home = () => {
   const projects = [
     {
+      id: 5,
+      title: "ExceedICT",
+      description:
+        "Technology company website with modern design (new design under development).",
+      figmaUrl:
+        "https://www.figma.com/proto/yTMUDyMzhmI6zXLu7vF0bB/Exceedict?page-id=0%3A1&node-id=24-40339&viewport=-1288%2C-41%2C0.07&t=mcqH3ugSXQSLEHuM-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=24%3A40339",
+      liveUrl: "https://exceedict.com/",
+      caseStudy: "/exceedict",
+      category: "Technology",
+    },
+
+    {
+      id: 3,
+      title: "JNL - James Noble Law",
+      description:
+        "Modern law firm website with professional aesthetics and user-friendly navigation- Password: 123",
+      figmaUrl:
+        "https://www.figma.com/proto/XCNo1QYhS4O4FZCRXKpvtd/JNL-UI-UX-2025?page-id=1099%3A22991&node-id=1099-23865&viewport=-78%2C349%2C0.17&t=5ZImbl6EzFddRq8A-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1099%3A23865",
+      liveUrl: "https://2026.jamesnoblelaw.au/",
+      category: "Legal Services",
+    },
+    {
       id: 13,
+      title: "Resident Stylist",
+      description:
+        "Clinical, trustworthy Fintech-inspired landing page for on-site care services.",
+      figmaUrl:
+        "https://www.figma.com/proto/mPfXKdJ4ZdhTjvgtLbRSlz/ResidentStylist?page-id=0%3A1&node-id=587-2054&viewport=-349%2C-3588%2C0.14&t=fMC0XMHe1WojVwCs-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=587%3A2054",
+      liveUrl: "https://residentstylist.com/",
+      caseStudy: "/resident-stylist",
+      category: "Style",
+    },
+       {
+      id: 4,
+      title: "The Law App",
+      description:
+        "Innovative legal application with intuitive interface and comprehensive functionality",
+      figmaUrl:
+        "https://www.figma.com/proto/uYFDvLCCwrkfMwt0D4FCp6/THE-LAW-APP?page-id=0%3A1&node-id=2-2640&viewport=252%2C-39%2C0.05&t=KA5MrlFZCvCppgWL-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2%3A10857",
+      liveUrl: "https://thelawapp.com.au/",
+      category: "Legal Services",
+    },
+    {
+      id: 1,
       title: "Sams Southern Eatery",
       description:
         "This project was designed for a franchise owner of Sams Southern Eatery, focusing on creating a modern, QR-powered food ordering and inventory management system.",
@@ -24,68 +67,28 @@ const Home = () => {
         "https://www.behance.net/gallery/221079497/Sams-Southern-Eatery-Franchise-Web-Application",
       category: "Food & Drink",
     },
-    {
-      id: 5,
-      title: "ExceedICT",
-      description:
-        "Technology company website with modern design (new design under development).",
-      figmaUrl:
-        "https://www.figma.com/proto/gWkpWk84pgXFiLE4eFCRt4/Exceedict-2025?page-id=3022%3A76813&node-id=3022-78248",
-      liveUrl: "https://exceedict.com/",
-      caseStudy: "/exceedict",
-      category: "Technology",
-    },
-    {
-      id: 13,
-      title: "Resident Stylist",
-      description:
-        "Clinical, trustworthy Fintech-inspired landing page for on-site care services.",
-      figmaUrl:
-        "https://www.figma.com/proto/mPfXKdJ4ZdhTjvgtLbRSlz/ResidentStylist?page-id=0%3A1&node-id=1-457",
-      liveUrl: "https://residentstylist.com/",
-      caseStudy: "/resident-stylist",
-      category: "Style",
-    },
-    {
-      id: 1,
-      title: "SquadDeck",
-      description:
-        "A comprehensive platform design with modern UI/UX principles",
-      figmaUrl:
-        "https://www.figma.com/proto/smS69yYNKwavQJyLyExvN1/SquadDeck-v2?page-id=0%3A1&node-id=2078-1280&viewport=716%2C468%2C0.04&t=mUkhQYSPoIYGjNYl-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2078%3A1280",
-      liveUrl: "https://squaddeck.com/",
-      category: "Web Platform",
-    },
+ 
     {
       id: 2,
       title: "AGS - Aylward Game Solicitors",
       description:
-        "Professional legal services website with clean, trustworthy design",
+        "Professional legal services website with clean, trustworthy design. I have designed the Hero section and lead the whole design",
       figmaUrl:
-        "https://www.figma.com/proto/MUtdEMDiCGRw4sIAx7ZCqf/AGS-UI-UX?page-id=0%3A1&node-id=1-2705&viewport=478%2C209%2C0.08&t=duSylFj7y1Gb2NnK-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A2705",
+        "https://www.figma.com/proto/WAV2IO7c9F3cZAoc4ygk3y/AGS-UI-UX-2025?page-id=1753%3A39683&node-id=1753-39734&viewport=-1725%2C1187%2C0.33&t=ZIGD4TpeMGzVSRW3-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1753%3A39734",
       liveUrl: "https://aylwardgame.com.au/",
       category: "Legal Services",
     },
-    {
-      id: 3,
-      title: "JNL - James Noble Law",
+{
+      id: 13,
+      title: "josephhollander.com",
       description:
-        "Modern law firm website with professional aesthetics and user-friendly navigation",
+        "Law firm project",
       figmaUrl:
-        "https://www.figma.com/proto/XCNo1QYhS4O4FZCRXKpvtd/JNL-UI-UX?page-id=0%3A1&node-id=1-1357&viewport=-547%2C252%2C0.12&t=tRMvHvsY7wixfX9I-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A1357",
-      liveUrl: "https://jamesnoblelaw.com.au/",
+        "https://www.figma.com/proto/0qWJRCZLEtL3WEYXp3Llq6/josephhollander.com?page-id=7%3A414&node-id=16-441&viewport=349%2C264%2C0.21&t=n8KaJ1B5ng5Sv1sZ-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=16%3A441",
+      liveUrl: "https://josephhollander.com/",
       category: "Legal Services",
     },
-    {
-      id: 4,
-      title: "The Law App",
-      description:
-        "Innovative legal application with intuitive interface and comprehensive functionality",
-      figmaUrl:
-        "https://www.figma.com/proto/uYFDvLCCwrkfMwt0D4FCp6/THE-LAW-APP?page-id=0%3A1&node-id=2-2640&viewport=252%2C-39%2C0.05&t=KA5MrlFZCvCppgWL-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2%3A10857",
-      liveUrl: "https://stag.thelawapp.com.au/",
-      category: "Legal Services",
-    },
+
     {
       id: 6,
       title: "Ammerny",
@@ -98,11 +101,11 @@ const Home = () => {
     },
     {
       id: 7,
-      title: "Nattraroza",
+      title: "Nattraroza Web and Mobile App",
       description:
         "Multi-platform design including website and mobile app with cohesive branding",
-      figmaUrl:
-        "https://www.figma.com/proto/zjjeNgi4xIoshsyFT99ndo/Nattroroza-New-Design?page-id=1145%3A151303&node-id=1145-158815&viewport=4351%2C4225%2C0.23&t=KuPt8i1qzU0tQtEV-1&scaling=contain&content-scaling=fixed&starting-point-node-id=1145%3A158815",
+      // figmaUrl:
+      //   "https://www.figma.com/proto/zjjeNgi4xIoshsyFT99ndo/Nattroroza-New-Design?page-id=1145%3A151303&node-id=1145-158815&viewport=4351%2C4225%2C0.23&t=KuPt8i1qzU0tQtEV-1&scaling=contain&content-scaling=fixed&starting-point-node-id=1145%3A158815",
       figmaUrl1:
         "https://www.figma.com/proto/zjjeNgi4xIoshsyFT99ndo/Nattroroza-New-Design?page-id=1178%3A138335&node-id=1875-222495&viewport=-453%2C4161%2C0.15&t=Um7RxVQ3JO7L2C4a-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1311%3A170021",
       liveUrl: "https://natrarosa.com/",
@@ -110,15 +113,15 @@ const Home = () => {
     },
     {
       id: 8,
-      title: "Wakkelni",
+      title: "Wakkelni Mobile and Web App",
       description:
         "Comprehensive platform with mobile app, web app, and landing page designs",
       figmaUrl:
-        "https://www.figma.com/proto/9CFjR4m9F3nuW4QzwyJbla/Wakkelni?page-id=687%3A41188&node-id=656-24213&viewport=608%2C-1235%2C0.16&t=JM1RhgHauVES3Wt8-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=629%3A22295",
-      figmaUrl1:
-        "https://www.figma.com/proto/9CFjR4m9F3nuW4QzwyJbla/Wakkelni?page-id=738%3A29890&node-id=740-29999&viewport=612%2C108%2C0.13&t=uGqwwv5vK87TIqAw-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=740%3A29999",
-      figmaUrl2:
-        "https://www.figma.com/proto/uWRKjYZjdANgQNHSqp6npL/INMOGR?page-id=0%3A1&node-id=2-46&viewport=1088%2C457%2C0.08&t=O4EI1HRuGfBJ6Rc8-1&scaling=scale-down&content-scaling=fixed",
+        "https://www.figma.com/proto/nmWQWMBTD635QwM9BAWbji/Wakellni-Latest-Mobile-App?page-id=502%3A20043&node-id=502-20056&viewport=494%2C135%2C0.21&t=CQULW3TfKyzqpjX1-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=502%3A20048",
+      // figmaUrl1:
+      //   "https://www.figma.com/proto/9CFjR4m9F3nuW4QzwyJbla/Wakkelni?page-id=738%3A29890&node-id=740-29999&viewport=612%2C108%2C0.13&t=uGqwwv5vK87TIqAw-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=740%3A29999",
+      // figmaUrl2:
+      //   "https://www.figma.com/proto/uWRKjYZjdANgQNHSqp6npL/INMOGR?page-id=0%3A1&node-id=2-46&viewport=1088%2C457%2C0.08&t=O4EI1HRuGfBJ6Rc8-1&scaling=scale-down&content-scaling=fixed",
       category: "Multi-platform",
     },
     {
@@ -135,13 +138,14 @@ const Home = () => {
     },
     {
       id: 10,
-      title: "Kiss Mobile App UI/UX",
+      title: "Kiss Mobile App",
       description:
         "Modern mobile application design with intuitive user interface",
       figmaUrl:
         "https://www.figma.com/proto/ShMfQsrJmlGSOXXsB2QQB7/All-Mobile-Apps-from-INMOGR?page-id=0%3A1&node-id=1-3855&viewport=693%2C502%2C0.06&t=yhUpQlcYxOh86LH2-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A3787",
       category: "Mobile App",
     },
+    
     {
       id: 11,
       title: "Car Rental Mobile App",
